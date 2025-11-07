@@ -124,12 +124,39 @@ if (heroStats) {
     statsObserver.observe(heroStats);
 }
 
-// Product card hover effect (tilt removed)
+// Product card interactions (mobile optimized)
 const productCards = document.querySelectorAll('.product-card-modern');
-productCards.forEach(card => {
-    // Tilt effect removed - cards now just lift up on hover
-    // The hover effect is handled by CSS
-});
+
+// Mobile touch feedback
+if ('ontouchstart' in window) {
+    productCards.forEach(card => {
+        card.addEventListener('touchstart', () => {
+            card.style.transform = 'translateY(-12px) scale(1.02)';
+            card.style.boxShadow = '0 20px 60px rgba(0, 0, 0, 0.15)';
+        });
+
+        card.addEventListener('touchend', () => {
+            setTimeout(() => {
+                card.style.transform = '';
+                card.style.boxShadow = '';
+            }, 200);
+        });
+    });
+
+    // Mobile benefit cards
+    const benefitCards = document.querySelectorAll('.benefit-card');
+    benefitCards.forEach(card => {
+        card.addEventListener('touchstart', () => {
+            card.style.transform = 'translateY(-4px)';
+        });
+
+        card.addEventListener('touchend', () => {
+            setTimeout(() => {
+                card.style.transform = '';
+            }, 200);
+        });
+    });
+}
 
 // Add ripple effect to buttons
 const buttons = document.querySelectorAll('.btn, .btn-buy');
