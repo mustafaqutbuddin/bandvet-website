@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BANDVET - Caring For The Wounds Of Your Loved Ones</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <svg class="logo-icon-svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <path d="M8 8C8 8 12 10 16 10C20 10 24 8 24 8C24 8 22 12 22 16C22 20 24 24 24 24C24 24 20 22 16 22C12 22 8 24 8 24C8 24 10 20 10 16C10 12 8 8 8 8Z" fill="url(#logo-gradient)"/>
+                    <defs>
+                        <linearGradient id="logo-gradient" x1="8" y1="8" x2="24" y2="24">
+                            <stop offset="0%" stop-color="#2B7FD9"/>
+                            <stop offset="100%" stop-color="#FDB840"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <span class="logo-text">BAND<span class="logo-highlight">VET</span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#products" class="nav-link">Products</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#reviews" class="nav-link">Reviews</a></li>
+            </ul>
+            <a href="#products" class="nav-cta-btn">Shop Now</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-bg">
+            <div class="hero-blob blob-1"></div>
+            <div class="hero-blob blob-2"></div>
+            <div class="hero-blob blob-3"></div>
+            <div class="paw-pattern-bg"></div>
+        </div>
+
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge-wrapper">
+                    <span class="hero-badge">
+                        <span class="badge-icon">🐾</span>
+                        Veterinary Grade • Trusted by Pet Parents
+                    </span>
+                </div>
+
+                <h1 class="hero-title">
+                    <span class="title-line">Caring For The</span>
+                    <span class="title-line title-gradient">Wounds Of Your</span>
+                    <span class="title-line title-accent">Loved Ones</span>
+                </h1>
+
+                <p class="hero-subtitle">
+                    Professional veterinary care products designed with love. From colorful paw print bandages
+                    to convenient dental wipes - because your pets deserve the best.
+                </p>
+
+                <div class="hero-cta-group">
+                    <a href="#products" class="btn btn-primary btn-lg">
+                        <span>Explore Products</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M7 3L14 10L7 17" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                        </svg>
+                    </a>
+                    <a href="#about" class="btn btn-secondary btn-lg">
+                        <span>Learn More</span>
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <div class="stat-value">15K+</div>
+                        <div class="stat-label">Happy Pets</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">4.9★</div>
+                        <div class="stat-label">Rating</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">100%</div>
+                        <div class="stat-label">Vet Approved</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="product-showcase-card">
+                    <div class="showcase-badge">Best Seller</div>
+                    <div class="showcase-image wrap-product">
+                        <div class="image-glow"></div>
+                        <img src="images/bandvet-wrap-paw-1.jpg" alt="BANDVET WRAP - Colorful Paw Print Bandages" class="hero-product-img">
+                    </div>
+                    <div class="showcase-info">
+                        <h3>BANDVET WRAP</h3>
+                        <p>Colorful Paw Print Bandages</p>
+                    </div>
+                </div>
+
+                <div class="floating-feature feature-1">
+                    <div class="feature-icon">💧</div>
+                    <div class="feature-text">
+                        <div class="feature-title">Water Resistant</div>
+                        <div class="feature-desc">Stays secure</div>
+                    </div>
+                </div>
+
+                <div class="floating-feature feature-2">
+                    <div class="feature-icon">🌬️</div>
+                    <div class="feature-text">
+                        <div class="feature-title">Breathable</div>
+                        <div class="feature-desc">Comfort first</div>
+                    </div>
+                </div>
+
+                <div class="floating-feature feature-3">
+                    <div class="feature-icon">✨</div>
+                    <div class="feature-text">
+                        <div class="feature-title">Easy Apply</div>
+                        <div class="feature-desc">Self-adhesive</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section">
+        <div class="section-container">
+            <div class="section-header-modern">
+                <span class="section-label">Our Products</span>
+                <h2 class="section-title-large">Complete Pet Care Solutions</h2>
+                <p class="section-description">Premium quality products trusted by veterinarians and pet lovers worldwide</p>
+            </div>
+
+            <div class="products-showcase">
+                <!-- Product 1: Bandvet Wrap -->
+                <div class="product-card-modern">
+                    <div class="product-visual">
+                        <div class="product-badge-top">Bestseller</div>
+                        <div class="product-image-area blue-theme">
+                            <div class="product-bg-pattern"></div>
+                            <div class="product-main-image">
+                                <img src="images/bandvet-wrap-paw-1.jpg" alt="BANDVET WRAP - Self-Adhesive Bandage with Paw Prints" class="product-img">
+                            </div>
+                            <div class="color-options">
+                                <span class="color-dot" style="background: #2B7FD9;"></span>
+                                <span class="color-dot" style="background: #00C6B8;"></span>
+                                <span class="color-dot" style="background: #FDB840;"></span>
+                                <span class="color-dot" style="background: #4A9FFF;"></span>
+                                <span class="color-more">+more</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-details">
+                        <div class="product-header">
+                            <div>
+                                <h3 class="product-name">BANDVET WRAP</h3>
+                                <p class="product-tagline">Self-Adhesive Bandage with Paw Prints</p>
+                            </div>
+                            <div class="product-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-count">4.9 (2.4K)</span>
+                            </div>
+                        </div>
+
+                        <p class="product-description-text">
+                            <strong>Caring for the wounds of your loved ones.</strong> Professional-grade veterinary wrap
+                            featuring adorable black paw prints on vibrant colors. Breathable, water-resistant, and
+                            self-adhesive for easy application on pets of all sizes.
+                        </p>
+
+                        <div class="product-features-grid">
+                            <div class="feature-item">
+                                <div class="feature-icon-box blue">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M17 6L8 15L3 10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                                <span>Self-Adhesive</span>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon-box blue">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M17 6L8 15L3 10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                                <span>Water-Resistant</span>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon-box blue">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M17 6L8 15L3 10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                                <span>Breathable Material</span>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon-box blue">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M17 6L8 15L3 10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                                <span>Colorful Paw Prints</span>
+                            </div>
+                        </div>
+
+                        <div class="product-footer-modern">
+                            <div class="price-section">
+                                <span class="price-label">Starting at</span>
+                                <span class="price-value">$24.99</span>
+                            </div>
+                            <a href="https://www.amazon.com/BANDVET-WRAP-Adhesive-Bandage-Wrap/dp/B0D45VSDG9" target="_blank" class="btn-buy">
+                                <span>Buy on Amazon</span>
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M6 13L12 9L6 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2: Dental Wipes -->
+                <div class="product-card-modern">
+                    <div class="product-visual">
+                        <div class="product-badge-top yellow">New</div>
+                        <div class="product-image-area yellow-theme">
+                            <div class="product-bg-pattern"></div>
+                            <div class="product-main-image">
+                                <img src="images/dental-wipes-1.jpg" alt="BANDVET Dental Wipes - Dog & Cat Dental Finger Wipes" class="product-img">
+                            </div>
+                            <div class="product-highlight-badge">90 Wipes</div>
+                        </div>
+                    </div>
+
+                    <div class="product-details">
+                        <div class="product-header">
+                            <div>
+                                <h3 class="product-name">BANDVET Dental Wipes</h3>
+                                <p class="product-tagline">Dog & Cat Dental Finger Wipes</p>
+                            </div>
+                            <div class="product-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-count">4.8 (1.8K)</span>
+                            </div>
+                        </div>
+
+                        <p class="product-description-text">
+                            Keep your furry friends' teeth clean and breath fresh! No-rinse, travel-friendly dental solution
+                            perfect for daily care. Simply slip on your finger and gently clean your pet's teeth and gums.
+                            Convenient, effective, and stress-free for both you and your pet.
+                        </p>
+
+                        <div class="product-features-grid">
+                            <div class="feature-item">
+                                <div class="feature-icon-box yellow">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M17 6L8 15L3 10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                                <span>No Rinsing Needed</span>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon-box yellow">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M17 6L8 15L3 10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                                <span>Travel-Friendly</span>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon-box yellow">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M17 6L8 15L3 10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                                <span>Dogs & Cats</span>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon-box yellow">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M17 6L8 15L3 10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                                <span>90 Pack Value</span>
+                            </div>
+                        </div>
+
+                        <div class="product-footer-modern">
+                            <div class="price-section">
+                                <span class="price-label">Starting at</span>
+                                <span class="price-value">$19.99</span>
+                            </div>
+                            <a href="https://www.amazon.ca/Bandvet-Wrap-Pack-Dental-Wipes/dp/B0DSJ2KL24" target="_blank" class="btn-buy yellow">
+                                <span>Buy on Amazon</span>
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M6 13L12 9L6 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features/Benefits Section -->
+    <section id="about" class="features-section">
+        <div class="features-container">
+            <div class="features-content">
+                <div class="features-text">
+                    <span class="section-label">Why Choose BANDVET</span>
+                    <h2 class="features-heading">Trusted Quality,<br><span class="text-gradient">Proven Results</span></h2>
+                    <p class="features-intro">
+                        We understand the special bond between you and your pets. That's why every BANDVET product
+                        is designed with both quality and care in mind, ensuring your furry friends get the best treatment they deserve.
+                    </p>
+                </div>
+
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <div class="icon-bg blue"></div>
+                            <span>🏥</span>
+                        </div>
+                        <h3>Veterinary Grade</h3>
+                        <p>Professional quality products trusted by veterinarians and pet care professionals worldwide.</p>
+                    </div>
+
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <div class="icon-bg yellow"></div>
+                            <span>🛡️</span>
+                        </div>
+                        <h3>Safe & Effective</h3>
+                        <p>Carefully formulated with pet-safe materials that are gentle yet highly effective for daily use.</p>
+                    </div>
+
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <div class="icon-bg teal"></div>
+                            <span>⚡</span>
+                        </div>
+                        <h3>Easy to Use</h3>
+                        <p>Designed for hassle-free application at home, on the go, or anywhere your pet needs care.</p>
+                    </div>
+
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <div class="icon-bg blue"></div>
+                            <span>❤️</span>
+                        </div>
+                        <h3>Made with Love</h3>
+                        <p>Created by pet lovers who understand the special bond between you and your companions.</p>
+                    </div>
+
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <div class="icon-bg yellow"></div>
+                            <span>✓</span>
+                        </div>
+                        <h3>Quality Guaranteed</h3>
+                        <p>100% satisfaction guarantee on all products. Your pet's happiness is our commitment.</p>
+                    </div>
+
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <div class="icon-bg teal"></div>
+                            <span>💬</span>
+                        </div>
+                        <h3>Great Support</h3>
+                        <p>Dedicated customer support team ready to help with any questions about our products.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="reviews" class="testimonials-section">
+        <div class="section-container">
+            <div class="section-header-modern">
+                <span class="section-label">Customer Reviews</span>
+                <h2 class="section-title-large">Loved By Thousands<br>of Pet Parents</h2>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card-modern">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <p class="testimonial-text">
+                        "The BANDVET wraps are a lifesaver! My active golden retriever is always getting little scrapes,
+                        and these wraps stay on even when he's running around. The paw prints are so cute and the quality is amazing!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">🐕</div>
+                        <div class="author-info">
+                            <div class="author-name">Sarah Mitchell</div>
+                            <div class="author-role">Golden Retriever Owner</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card-modern featured">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <p class="testimonial-text">
+                        "Finally found dental wipes that actually work! My cat Luna hates traditional brushing,
+                        but these finger wipes are so easy to use. Her breath is noticeably fresher and her teeth look cleaner.
+                        Highly recommend to all cat parents!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">🐱</div>
+                        <div class="author-info">
+                            <div class="author-name">Michael Chen</div>
+                            <div class="author-role">Cat Parent</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card-modern">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <p class="testimonial-text">
+                        "As a vet tech, I recommend BANDVET products to all my clients. Professional quality at an affordable price.
+                        The water-resistant feature on the wraps is incredible - they really stay put!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👨‍⚕️</div>
+                        <div class="author-info">
+                            <div class="author-name">Dr. Jennifer Lopez</div>
+                            <div class="author-role">Veterinary Technician</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Give Your Pet<br>The Care They Deserve?</h2>
+                <p class="cta-subtitle">Join thousands of happy pet parents who trust BANDVET</p>
+                <div class="cta-buttons">
+                    <a href="#products" class="btn btn-white btn-lg">
+                        <span>Shop Products</span>
+                    </a>
+                    <a href="https://www.amazon.com/stores/BandvetWrap/page/9DF834DD-5D99-4E6A-9C63-ACC73C11F436" target="_blank" class="btn btn-outline-white btn-lg">
+                        <span>Visit Our Store</span>
+                    </a>
+                </div>
+            </div>
+            <div class="cta-decoration">
+                <div class="decoration-paw">🐾</div>
+                <div class="decoration-paw">🐾</div>
+                <div class="decoration-paw">🐾</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <svg class="logo-icon-svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path d="M8 8C8 8 12 10 16 10C20 10 24 8 24 8C24 8 22 12 22 16C22 20 24 24 24 24C24 24 20 22 16 22C12 22 8 24 8 24C8 24 10 20 10 16C10 12 8 8 8 8Z" fill="url(#logo-gradient-footer)"/>
+                            <defs>
+                                <linearGradient id="logo-gradient-footer" x1="8" y1="8" x2="24" y2="24">
+                                    <stop offset="0%" stop-color="#4A9FFF"/>
+                                    <stop offset="100%" stop-color="#FDB840"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <span class="logo-text">BAND<span class="logo-highlight">VET</span></span>
+                    </div>
+                    <p class="footer-tagline">Caring for the wounds of your loved ones.</p>
+                    <p class="footer-description">Premium veterinary care products designed with love for pets everywhere.</p>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Products</h4>
+                        <ul>
+                            <li><a href="https://www.amazon.com/BANDVET-WRAP-Adhesive-Bandage-Wrap/dp/B0D45VSDG9" target="_blank">Bandvet Wrap</a></li>
+                            <li><a href="https://www.amazon.ca/Bandvet-Wrap-Pack-Dental-Wipes/dp/B0DSJ2KL24" target="_blank">Dental Wipes</a></li>
+                            <li><a href="https://www.amazon.com/stores/BandvetWrap/page/9DF834DD-5D99-4E6A-9C63-ACC73C11F436" target="_blank">All Products</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#reviews">Reviews</a></li>
+                            <li><a href="#products">Our Story</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Shipping Info</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 BANDVET. All rights reserved. Made with ❤️ for pets everywhere.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
